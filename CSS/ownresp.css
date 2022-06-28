@@ -1,0 +1,104 @@
+@media only screen and (max-width:420px){
+    .navbar{
+        flex-direction: column;
+    height: 20vh;
+    }
+
+    .img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img img{
+        width: 15%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .rightnav{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .rightnav p{
+        margin: 10px;
+    }
+
+    .sec1{
+        height: 125vh;
+        flex-direction: column;
+    }
+
+    .leftsec1{
+        width: 100%;
+        bottom: 50px;
+    }
+
+    .rightsec1{
+        width: 100%;
+    }
+
+    .btnsec1{
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+    }
+
+    .sec2{
+        width: 80%;
+        bottom: 150px;
+        height: 35vh;
+    }
+
+    .sec3{
+        height: 285vh;
+    }
+
+    .umberfullfilled{
+        display: flex;
+    flex-direction: column;
+    }
+
+    .sectiontag1{
+        flex-direction: column;
+    }
+
+    .sectiontag2{
+        flex-direction: column;
+    }
+
+    .sec4head{
+        margin: 0vh;
+        margin-top: 38vh;
+    }
+
+    .sec4{
+        flex-direction: column-reverse;
+    }
+
+    .input_contact{
+        width: 80%;
+    }
+
+    .input1{
+        width: 22vw;
+    }
+
+    .input2{
+        width: 60vw;
+    }
+
+    .input3{
+        width: 60vw;
+    }
+
+    .input4{
+        width: 60vw;
+        height: 13vh;
+    }
+
+    .vectsec4 img{
+        width: 90%;
+    }
+}

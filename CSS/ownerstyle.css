@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    /* border: 2px solid red; */
+    position: sticky;
+}
+
+.img{
+    width: 50%;
+}
+
+.img img{
+    width: 6%;
+    background-color: white;
+    border: none;
+    border-radius: 200px;
+    position: absolute;
+    top: 2.5vh;
+    left: 2.5vw;
+}
+
+.rightnav{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightnav p{
+    margin: 25px;
+    font-size: 150%;
+    color: white;
+}
+
+.rightnav p a{
+    text-decoration: none;
+    color: white;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('/images/property.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.sec1{
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.leftsec1{
+    width: 50%;
+    position: relative;
+    bottom: 20px;
+}
+
+.leftsec1 img{
+    width: 80%;
+}
+
+.rightsec1{
+    width: 50%;
+    position: relative;
+    bottom: 20px;
+    padding: 0 70px;
+}
+
+.rightsec1 h1{
+    color: white;
+    font-size: 300%;
+    position: relative;
+    /* bottom: 150px; */
+    font-family: 'Bitter', serif;
+}
+
+.rightsec1 p{
+    color: white;
+    position: relative;
+    /* bottom: 140px; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btnsec1{
+    position: absolute;
+    top: 80vh;
+    left: 65vw;
+}
+
+.btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+    background-color: coral;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(40, 83, 148);
+    width: 300px;
+}
+
+.btn a:hover{
+    color: white;
+    font-size: 20px;
+}
+
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border: 2px solid black;
+    /* text-align: center; */
+    position: relative;
+    bottom: 70px;
+    margin: auto;
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+    opacity: 70%;
+}
+
+.sec2 h1{
+    font-size: 400%;
+    color: white;
+    font-family: 'Tourney', cursive;
+}
+
+.sec3{
+    padding-top: 5vh;
+    height: 190vh;
+    text-align: center;
+    background-color: rgb(188, 238, 234);
+    margin: 0 10vw;
+    border-bottom: 5px solid black;
+    box-shadow: 10px 5px 30px rgb(112, 111, 111);
+}
+
+.sec3 h2{
+    margin-top: 20px;
+    margin: 30px 0px;
+    font-size: 300%;
+    font-family: 'Bitter', serif;
+}
+
+.sectiontag1{
+    display: flex;
+    margin: 100px 0;
+}
+
+.sectiontag2{
+    display: flex;
+    margin: 100px 0;
+}
+
+.sectionsubtag h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img1{
+    width: 50%;
+    /* background-color: white; */
+    border: none;
+    /* border-radius: 200px; */
+}
+
+.img2{
+    width: 37%;
+}
+
+.sec4{
+    /* height: 1000px; */
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4head{
+    margin: 15vh;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(40, 83, 148);
+    font-family: 'Tourney', cursive;
+}
+
+#img7{
+    width: 100px;
+    margin: auto;
+}
+
+.input_contact{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border-bottom: 2px solid black;
+    background-color: rgba(94, 94, 175, 0.534);
+    box-shadow: 10px 5px 30px rgb(112, 111, 111);
+}
+
+#form{
+    margin: auto;
+    padding: 10px 7%;
+}
+
+.input{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    font-size: 130%;
+    color: black;
+}
+
+.input1{
+    width: 11vw;
+    margin: 14px;
+}
+
+.input2{
+    width: 365px;
+    margin: 10px;   
+}
+
+.input3{
+    width: 365px;
+    margin: 10px;   
+}
+
+.input4{
+    width: 365px;  
+    height: 25vh;
+    margin: 10px; 
+}
+
+.formbtn{
+    text-align: center;
+}
+
+.btn2:hover{
+    background-color: darkgray;
+}
+
+.footer{
+    background-color: rgb(61, 60, 60);
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.foot1{
+    padding-bottom: 10vh;
+}
+
+.socialimg{
+    width: 2%;
+    margin: 1%;
+}
+
+.foot2{
+    position: relative;
+    bottom: 10px;
+    color: white;
+}
+
+.img_hover{
+    transition: all 0.2s ease-out;
+}
+
+.img_hover:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,184 @@
+@media only screen and (max-width:420px){
+
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navlist{
+        flex-direction: column;
+    }
+
+    .logo img{
+        right: 0%;
+        width: 80%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .sec1{
+        flex-direction: column;
+    }
+
+    .first-half{
+        width: 100%;
+    }
+
+    .second-half{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .img{
+        width: 70%;
+    }
+
+    .box-main{
+        flex-direction: column;
+    }
+
+    .expumber{
+        flex-direction: column;
+    }
+
+    .leftexp{
+        width: 100%;
+        text-align: center;
+    }
+
+    .rightexp{
+        width: 100%;
+        text-align: center;
+    }
+
+    .form1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details input{
+        width: 80%;
+        margin: 30px;
+    }
+
+    .ownpg{
+        flex-direction: column;
+        margin: 10vh 10vw;
+    }
+
+    .ownpg img{
+        width: 90%;
+    }
+
+    .sec3{
+        flex-direction: column;
+        height: 245vh;
+    }
+
+    .servbox{
+        flex-direction: column;
+    }
+
+    .service p{
+        padding: 0px 20px;
+    }
+
+    .sec4{
+        flex-direction: column;
+    }
+
+    .imgresp{
+        width: 120%;
+    }
+
+    .rightsec4{
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .rightsec4 button{
+        margin-bottom: 15px;
+    }
+
+    .sec5{
+        flex-direction: column;
+        height: 18vh;
+        padding-top: 20px;
+    }
+
+    .leftsec5{
+        width: 100%;
+        text-align: center;
+    }
+
+    .rightsec5{
+        flex-direction: column;
+        margin-top: 45%;
+    }
+
+    .profile{
+        width: 70vw;
+        margin-top:  15px;
+        bottom: 120px;
+        height: 70vh;
+    }
+
+    .prfilepic{
+        width: 180px;
+    }
+
+    .sec6head{
+        margin-top: 150vh;
+    }
+
+    .sec6{
+        margin-top: 5vh;
+        flex-direction: column-reverse;
+    }
+
+    .leftsec6{
+        width: 100%;
+    }
+
+    .input_contact{
+        width: 85%;
+        height: 65vh;
+    }
+
+    .input1{
+        width: 105px;
+        padding: 5px;
+    }
+
+    .input2{
+        width: 230px;
+        padding: 5px;
+    }
+
+    .input3{
+        width: 230px;
+        padding: 5px;
+    }
+
+    .input4{
+        width: 230px;
+        padding: 5px;
+    }
+
+    .socialimg{
+        width: 7%;
+    }
+
+    .h-nav{
+    height: 72px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+}
